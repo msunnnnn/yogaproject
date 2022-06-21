@@ -1,0 +1,65 @@
+body {
+    text-align: center;
+    font-family: 'Shadows Into Light', cursive;
+    color: #99C2D4;
+}
+
+h1 {
+    color: #99C2D4;
+    background-color: #f2c1af;
+    border-radius: 30px;
+    font-size: 60px;
+    margin: 0px;
+}
+
+a {
+    text-decoration: none;
+    color:#99C2D4
+}
+
+.nav {
+    border: #C48A8C 5pt dotted;
+    border-radius: 10px;
+    width: 30%;
+    padding: 10px 30px;
+    margin: 10px;;
+    display: flex;
+    justify-content: space-around;
+}
+
+#landing{
+    background-image: url(img/landing.JPG);
+    background-size: cover;
+    background-position: center;
+    height: 100vh;
+    border-radius: 30px;
+}
+
+.header{
+    font-size: 20px;
+    padding: 0px 30px;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    align-items: center;
+}
+
+.template{
+    border:#C48A8C 5pt dotted;
+    width: auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 20px;
+}
+
+.box{
+    margin: 30px;
+    height: 400px;
+}
+
+.profilePhoto{
+    border-radius: 50%;
+}
+
+
