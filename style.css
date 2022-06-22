@@ -7,6 +7,7 @@ body {
 h1 {
     color: #99C2D4;
     background-color: #f2c1af;
+    border:#C48A8C 5pt solid;
     border-radius: 30px;
     font-size: 60px;
     margin: 0px;
@@ -18,9 +19,9 @@ a {
 }
 
 .nav {
-    border: #C48A8C 5pt dotted;
+    border: #C48A8C 5pt solid;
     border-radius: 10px;
-    width: 30%;
+    width: 250pt;
     padding: 10px 30px;
     margin: 10px;;
     display: flex;
@@ -37,7 +38,7 @@ a {
 
 .header{
     font-size: 20px;
-    padding: 0px 30px;
+    padding: 0px 50pt;
     display: flex;
     justify-content: space-between;
     flex-wrap: wrap;
@@ -45,7 +46,8 @@ a {
 }
 
 .template{
-    border:#C48A8C 5pt dotted;
+    background-color: #C48A8C;
+    border-radius: 30px;
     width: auto;
     display: flex;
     justify-content: space-between;
@@ -55,11 +57,44 @@ a {
 
 .box{
     margin: 30px;
-    height: 400px;
 }
 
 .profilePhoto{
     border-radius: 50%;
 }
 
+.aboutMeP{
+    font-size: larger;
+    font-family: Arial, Helvetica, sans-serif;
+    color: white;
+    line-height: 2;
+}
+
+.schedule{
+    background-color: #C48A8C;
+    border-radius: 30px;
+    font-family: Arial, Helvetica, sans-serif;
+    color: white;
+    margin: 20px;
+    padding: 20px;
+    display: flex;
+    justify-content: space-around;
+    align-content: flex-start;
+    flex-wrap: wrap;
+}
+
+.break{
+    flex-basis: 100%;
+    height: 20pt;
+}
+
+.item {
+    border: #f2c1af 2pt solid;
+    border-radius: 30px;
+    padding: 10px
+}
+
+.schedulePhoto{
+    border-radius: 30px;
+}
 
