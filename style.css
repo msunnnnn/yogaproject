@@ -126,3 +126,11 @@ a {
     border: #99C2D4 20pt solid ;
 }
 
+.homeText{
+    border-radius: 30px;
+    background-color: #c48a8c92;
+    padding: 10pt;
+    color: white;
+    font-family: fantasy;
+    line-height: 2;
+}
